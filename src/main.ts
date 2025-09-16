@@ -1,5 +1,5 @@
 import {vec3, vec4, vec2} from 'gl-matrix';
-const Stats = require('stats-js');
+const Stats = require('stats.js');
 import * as DAT from 'dat.gui';
 import Icosphere from './geometry/Icosphere';
 import OpenGLRenderer from './rendering/gl/OpenGLRenderer';

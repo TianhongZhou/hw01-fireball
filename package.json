@@ -1,8 +1,8 @@
 {
   "scripts": {
-"start": "SET NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server --no-hot --live-reload",
-"build": "webpack"
-},
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server --no-hot --live-reload",
+    "build": "webpack"
+  },
   "devDependencies": {
     "@types/webgl2": "0.0.6",
     "ts-loader": "^9.2.5",
@@ -13,7 +13,10 @@
     "webpack-glsl-loader": "^1.0.1"
   },
   "dependencies": {
+    "@types/dat.gui": "^0.7.13",
     "3d-view-controls": "^2.2.2",
-    "gl-matrix": "^3.3.0"
+    "dat.gui": "^0.7.9",
+    "gl-matrix": "^3.3.0",
+    "stats.js": "^0.17.0"
   }
 }
