@@ -2,7 +2,7 @@
 
 Description:
 
-This project implemented a fireball effect. 
+This project implemented a fireball effect.  
 
 The toolbox functions used:
 - Vertex Shader (deformation):
